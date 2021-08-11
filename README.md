@@ -4,11 +4,11 @@ A responsive order card made with HTML and CSS.
 ### Final Result
 
 ### Desktop Version
-<img src="assets/final/desktop-version1.jpg" alt="Web Version"/>
-<img src="assets/desktop-version2.jpg" alt="Web Version"/>
+<img src="assets/final/desktop-version.jpg" alt="Web Version"/>
 
 ### Mobile Version
-<img src="assets/final/mobile-version.jpg" alt="Mobile Version"/>
+<img src="assets/final/mobile-version1.jpg" alt="Mobile Version"/>
+<img src="assets/mobile-version2.jpg" alt="Web Version"/>
 
 ## 🚀 Starting
 
