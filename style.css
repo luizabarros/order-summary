@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #e0e8ff no-repeat;
+    background-image: url(assets/pattern-background.svg);
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 7rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.container {
+    background: #ffffff;
+    max-width: 35rem;
+    max-height: 55rem;
+    border-radius: 1.5rem;
+    box-shadow: .1rem .5rem 5rem #00000033;
+}
+
+main.container .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-img-bg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.card .card-body {
+    padding: 3.5rem 1.5rem;
+    text-align: center;
+}
+
+.card .card-body h1 {
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: #1f2f56;
+}
+
+.card .card-body p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #7280a7;
+    padding-top: 1rem;
+}
+
+.card .card-body .annual-plan {
+    background: #f5f7ff;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 6rem;
+    margin-top: 2.5rem;
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+@media only screen and (max-width: 380px) {
+    .card .card-body .annual-plan {
+        font-size: 1rem;
+    }
+}
+
+.card-body .annual-plan .plan-info {
+    position: absolute;
+    right: 15rem;
+}
+
+@media only screen and (max-width: 380px) {
+    .card-body .annual-plan .plan-info {
+        position: static;
+        padding: 0 1.5rem;
+    }
+}
+
+.card-body .annual-plan .plan-info .plan-label {
+    font-weight: 900;
+    color: #1f2f56;
+}
+
+.card-body .annual-plan .plan-info .plan-value {
+    font-weight: 500;
+    color: #7280a7;
+}
+
+.card-body .annual-plan .plan-change a {
+    font-weight: 700;
+    color: #3829e0;
+}
+
+.card-body .annual-plan .plan-change a:hover {
+    text-decoration: none;
+    color: #3829e0d5;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card form button {
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.card form button[type="submit"] {
+    background: #3829e0;
+    color: #ffffff;
+    margin-top: 2.5rem;
+    height: 4.5rem;
+    border-radius: 1.5rem;
+    box-shadow: .3rem .3rem 1rem #00000033;
+    transition: all 0.3s ease;
+}
+
+.card form button[type=submit]:hover {
+    background: #3829e0d5;
+    letter-spacing: .1rem;
+}
+
+.card form button[type="reset"] {
+    background: none;
+    color: #7280a7;
+    margin-top: 1.3rem;
+}
+
+.card form button[type="reset"]:hover {
+    color: #1f2f56;
+}
