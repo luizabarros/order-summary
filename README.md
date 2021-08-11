@@ -8,7 +8,7 @@ A responsive order card made with HTML and CSS.
 
 ### Mobile Version
 <img src="assets/final/mobile-version1.jpg" alt="Mobile Version"/>
-<img src="assets/mobile-version2.jpg" alt="Web Version"/>
+<img src="assets/final/mobile-version2.jpg" alt="Web Version"/>
 
 ## 🚀 Starting
 
