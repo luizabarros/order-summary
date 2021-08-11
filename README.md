@@ -5,10 +5,10 @@ A responsive order card made with HTML and CSS.
 
 ### Desktop Version
 <img src="assets/final/desktop-version.jpg" alt="Web Version"/>
+<img src="assets/final/desktop-version2.jpg.jpg" alt="Web Version"/>
 
 ### Mobile Version
 <img src="assets/final/mobile-version1.jpg" alt="Mobile Version"/>
-<img src="assets/final/mobile-version2.jpg" alt="Web Version"/>
 
 ## 🚀 Starting
 
