@@ -31,7 +31,7 @@ main.container {
     box-shadow: .1rem .5rem 5rem #00000033;
 }
 
-main.container .card {
+.container .card {
     display: flex;
     flex-direction: column;
 }
@@ -92,22 +92,22 @@ main.container .card {
     }
 }
 
-.card-body .annual-plan .plan-info .plan-label {
+.annual-plan .plan-info .plan-label {
     font-weight: 900;
     color: #1f2f56;
 }
 
-.card-body .annual-plan .plan-info .plan-value {
+.annual-plan .plan-info .plan-value {
     font-weight: 500;
     color: #7280a7;
 }
 
-.card-body .annual-plan .plan-change a {
+.annual-plan .plan-change a {
     font-weight: 700;
     color: #3829e0;
 }
 
-.card-body .annual-plan .plan-change a:hover {
+.annual-plan .plan-change a:hover {
     text-decoration: none;
     color: #3829e0d5;
 }
@@ -122,7 +122,7 @@ main.container .card {
     font-weight: 900;
 }
 
-.card form button[type="submit"] {
+.card button[type="submit"] {
     background: #3829e0;
     color: #ffffff;
     margin-top: 2.5rem;
@@ -132,17 +132,17 @@ main.container .card {
     transition: all 0.3s ease;
 }
 
-.card form button[type=submit]:hover {
+.card button[type=submit]:hover {
     background: #3829e0d5;
     letter-spacing: .1rem;
 }
 
-.card form button[type="reset"] {
+.card button[type="reset"] {
     background: none;
     color: #7280a7;
     margin-top: 1.3rem;
 }
 
-.card form button[type="reset"]:hover {
+.card button[type="reset"]:hover {
     color: #1f2f56;
 }
